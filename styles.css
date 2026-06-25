@@ -1,4 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: royalblue;
+    background-color: rgb(200, 200, 200);
+    padding-left: 10px;
+
+}
+
+h1 {
+    color: darkred;
+}
+
+h2 {
+    color: darkblue;
+}
+
+p {
+    padding-left: 10px;
 }
