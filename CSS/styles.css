@@ -26,10 +26,11 @@ p, li {
 }
 
 img.CloudImage {  
-    width: 25%;
-    height: auto;
-    border-radius: 10px;
-    padding-left: 35%;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 35%;
 }
 
 label {
