@@ -1,16 +1,13 @@
-:root {
-  --bg-image: url("https://imgs.search.brave.com/Mr6h9AgQxDg9yvWXRyoO6XFdwRcv7L4D3lr2_MCSbRk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wMS5o/aXBwb3B4LmNvbS9w/cmV2aWV3LzExOC82/LzUzMi91bml2ZXJz/ZS1wbGFuZXQtc3Rh/ci1iYWNrZ3JvdW5k/LXJveWFsdHktZnJl/ZS10aHVtYm5haWwu/anBn");
-}
-
 body {
     font-family: Arial, sans-serif;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ),var(--bg-image);
+    ),url('../img/Galaxy01.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
     padding-left: 10px;
 
 }
